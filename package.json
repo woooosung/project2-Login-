@@ -1,0 +1,24 @@
+{
+  "name": "log-in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woooosung/project2-Login-.git"
+  },
+  "author": "Woo Sung Kang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woooosung/project2-Login-/issues"
+  },
+  "homepage": "https://github.com/woooosung/project2-Login-#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
