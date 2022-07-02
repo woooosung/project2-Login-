@@ -6,7 +6,7 @@ const PORT = 3000;
 
 const app = express();
 
-const connectDB = require('//path of mongo db directory');
+const connectDB = require('./server/database/connection');
 
 connectDB();
 
