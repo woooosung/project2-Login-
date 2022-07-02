@@ -11,7 +11,6 @@ const connectDB = require('//path of mongo db directory');
 connectDB();
 
 app.get('/', (req, res) => {
-    res.send("Welcome")
 })
 
 app.listen(PORT, ()=>{
