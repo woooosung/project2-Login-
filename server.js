@@ -10,9 +10,9 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-/* const connectDB = require('./server/database/connection');
+const connectDB = require('./server/database/connection');
 
-connectDB(); */
+connectDB();
 
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended : true}))
