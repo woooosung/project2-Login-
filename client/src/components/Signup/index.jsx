@@ -66,7 +66,7 @@ const Signup = () => {
                         />
                         <input
                             type = "email"
-                            placeholder = 'First Name'
+                            placeholder = 'Email'
                             name='email'
                             onChange ={handleChange}
                             value={data.email}
@@ -92,3 +92,5 @@ const Signup = () => {
         </div>
     )
 }
+
+export default Signup;

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import axios from 'axios';
 
 
-const Signup = () => {
+const Login = () => {
     const [data,setData] = useState({ 
         email: "",
         password: ""
@@ -37,10 +37,10 @@ const Signup = () => {
             <div className = {styles.login_form_container}>
                 <div className = {styles.left}>
                     <form className ={styles.form_container} onSubmit={handleSubmit}>
-                        <h1>Login to Y our Account</h1>
+                        <h1>Login to Your Account</h1>
                         <input
                             type = "email"
-                            placeholder = 'First Name'
+                            placeholder = 'Email'
                             name='email'
                             onChange ={handleChange}
                             value={data.email}
@@ -75,3 +75,5 @@ const Signup = () => {
         </div>
     )
 }
+
+export default Login;
